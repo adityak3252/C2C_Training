@@ -1,0 +1,64 @@
+﻿@model ShoppingCartViewModel
+
+<div style="padding-top:80px">
+    <h2>Here's Your Shopping Cart!</h2>
+    <h3>Great selection of Food Items!</h3>
+
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>FoodItem</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Sub Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ShoppingCart.ShoppingCartItems)
+            {
+                <tr>
+                    <td class="text-left">
+                        @item.FoodItem.FoodName
+                    </td>
+                    <td class="text-right">
+                        ₹ @item.FoodItem.Price
+                    </td>
+                    <td class="text-center"><a class="btn btn-dark text-white" asp-controller="ShoppingCart" asp-action="RemoveFromShoppingCart" asp-route-fooditemid="@item.FoodItem.FoodId">-</a>&nbsp; @item.Quantity &nbsp;<a class="btn btn-dark text-white" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-fooditemid="@item.FoodItem.FoodId">+</a></td>
+                    <td class="text-right">₹ @(item.Quantity * item.FoodItem.Price)</td>
+                </tr>
+
+            }
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" class="text-right">Total:</td>
+                <td class="text-right">
+                    ₹ @Model.ShoppingCartTotal
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align:center">
+                    <a class="btn btn-dark text-white" asp-controller="FoodItem" asp-action="Index">Go Back</a> &nbsp;
+                    <a class="btn btn-dark text-white" asp-controller="ShoppingCart" asp-action="ClearShoppingCart">Clear Cart</a>
+                </td>
+                @if (Model.ShoppingCartTotal <= 0)
+                {
+                    <td colspan="2" style="text-align:center">
+                        <a class="btn btn-dark text-white" asp-controller="FoodItem" asp-action="Index">Continue Shopping!</a>
+                        <a class="btn btn-dark text-white disabled" asp-controller="Register" asp-action="Index">Check out now!</a>
+                    </td>
+                }
+                else
+                {
+                    <td colspan="2" style="text-align:center">
+                        <a class="btn btn-dark text-white" asp-controller="FoodItem" asp-action="Index">Continue Shopping!</a>
+                        <a class="btn btn-dark text-white" asp-controller="Register" asp-action="Index">Check out now!</a>
+                    </td>
+                }
+            </tr>
+        </tfoot>
+
+    </table>
+
+
+</div>

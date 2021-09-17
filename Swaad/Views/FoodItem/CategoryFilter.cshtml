@@ -1,0 +1,23 @@
+﻿@model FoodListViewModel
+
+<div class="container">
+    <h2>Best Food is right here!</h2>
+    <form method="get" asp-action="index" class="input-group justify-content-lg-end">
+        <input type="search" placeholder="Search your favourite food" value="@ViewData["GetFoodItems"]" name="FoodSearch" />
+        <input type="submit" value="Search" class="btn btn-dark text-white" />
+    </form>
+    <hr />
+    <div class="card-deck">
+        <div class="card shadow">
+            <div class="card-body">
+                <div class="row gx-4 row-cols-md-4" style="margin:10px">
+                    @foreach (var item in Model.FoodItems)
+                    {
+                        <partial name="_FoodItemCard" model="item" />
+
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

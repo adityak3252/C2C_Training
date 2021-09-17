@@ -1,0 +1,35 @@
+﻿@model FoodItem
+
+    <div class="container jumbotron">
+        <div class="col mb-4">
+            <div class="card h-100">
+                <!-- Sale badge-->
+                @if (Model.HasDiscount == true)
+                {
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">50% Discount</div>
+                }
+                <!-- Product image-->
+                <img class="card-img-top" src="@Model.ImageUrl" alt="..." />
+                <!-- Product details-->
+                <div class="card-body p-4">
+                    <div class="text-center">
+                        <!-- Product name-->
+                        <h5 class="fw-bolder">@Model.FoodName</h5>
+                        <!-- Product price-->
+                        @if (Model.HasDiscount == true)
+                        {
+                            <span class="text-muted text-decoration-line-through">₹ @(2 * @Model.Price)</span>
+                        }
+                        ₹ @Model.Price
+                    </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer">
+                    <div class="btn-wrapper text-center justify-content-between">
+                        <a class="btn btn-dark text-white" asp-controller="FoodItem" asp-action="Index">Go Back</a> &nbsp;
+                        <a class="btn btn-dark text-white" asp-controller="ShoppingCart" asp-action="AddToShoppingCart" asp-route-fooditemid="@Model.FoodId">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

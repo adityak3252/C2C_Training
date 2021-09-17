@@ -1,0 +1,13 @@
+C:\Users\Aditya.Karante\source\repos\taskpad\bin\Debug\netcoreapp3.1\taskpad.exe
+C:\Users\Aditya.Karante\source\repos\taskpad\bin\Debug\netcoreapp3.1\taskpad.deps.json
+C:\Users\Aditya.Karante\source\repos\taskpad\bin\Debug\netcoreapp3.1\taskpad.runtimeconfig.json
+C:\Users\Aditya.Karante\source\repos\taskpad\bin\Debug\netcoreapp3.1\taskpad.runtimeconfig.dev.json
+C:\Users\Aditya.Karante\source\repos\taskpad\bin\Debug\netcoreapp3.1\taskpad.dll
+C:\Users\Aditya.Karante\source\repos\taskpad\bin\Debug\netcoreapp3.1\taskpad.pdb
+C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.csprojAssemblyReference.cache
+C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.AssemblyInfoInputs.cache
+C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.AssemblyInfo.cs
+C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.csproj.CoreCompileInputs.cache
+C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.dll
+C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.pdb
+C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.genruntimeconfig.cache

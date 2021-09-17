@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "UNx2ihx17SQ411JhcOKkkwROqUa8jhrXr2YFwN5B+nBCmsc+hcF2Tqop9QQYyNTiEeeKvTeC3Dmhvx6N2iquUA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Aditya.Karante\\source\\repos\\taskpad\\taskpad.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Aditya.Karante\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

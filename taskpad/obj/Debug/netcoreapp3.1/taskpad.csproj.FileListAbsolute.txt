@@ -11,3 +11,17 @@ C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.csp
 C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.dll
 C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.pdb
 C:\Users\Aditya.Karante\source\repos\taskpad\obj\Debug\netcoreapp3.1\taskpad.genruntimeconfig.cache
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\bin\Debug\netcoreapp3.1\taskpad.exe
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\bin\Debug\netcoreapp3.1\taskpad.deps.json
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\bin\Debug\netcoreapp3.1\taskpad.runtimeconfig.json
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\bin\Debug\netcoreapp3.1\taskpad.runtimeconfig.dev.json
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\bin\Debug\netcoreapp3.1\taskpad.dll
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\bin\Debug\netcoreapp3.1\taskpad.pdb
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\obj\Debug\netcoreapp3.1\taskpad.csproj.AssemblyReference.cache
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\obj\Debug\netcoreapp3.1\taskpad.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\obj\Debug\netcoreapp3.1\taskpad.AssemblyInfoInputs.cache
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\obj\Debug\netcoreapp3.1\taskpad.AssemblyInfo.cs
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\obj\Debug\netcoreapp3.1\taskpad.csproj.CoreCompileInputs.cache
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\obj\Debug\netcoreapp3.1\taskpad.dll
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\obj\Debug\netcoreapp3.1\taskpad.pdb
+C:\Users\Aditya.Karante\OneDrive - MINDBODY, Inc\Documents\GitHub\C2C_Training\taskpad\obj\Debug\netcoreapp3.1\taskpad.genruntimeconfig.cache

@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UNx2ihx17SQ411JhcOKkkwROqUa8jhrXr2YFwN5B+nBCmsc+hcF2Tqop9QQYyNTiEeeKvTeC3Dmhvx6N2iquUA==",
+  "dgSpecHash": "b9LiR+q5l9JhNjTfMqVpxA1kdkKcdVh0NhEVLiqYEGpmv8clzEMVZHRio65YcpWW91fnC+PkPMoxWSjZpsdDyQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aditya.Karante\\source\\repos\\taskpad\\taskpad.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Aditya.Karante\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Aditya.Karante\\OneDrive - MINDBODY, Inc\\Documents\\GitHub\\C2C_Training\\taskpad\\taskpad.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
